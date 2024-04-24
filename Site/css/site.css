@@ -1,0 +1,607 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.container {
+    width: 990px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #727272;
+    text-decoration: none;
+}
+
+nav ul :hover {
+    background-color: #39AAE1;
+    color: white;
+}
+
+.banner {
+    background-image: url(../images/template.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.textos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 0px 2px 0px #666;
+    max-width: 300px;
+}
+
+.textos h3 {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 2px 0px #666;
+    max-width: 300px;
+}
+
+.opcoes {
+    height: 210px;
+    display: flex;
+}
+
+.opcoes a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+.opcoes a:hover {
+    color:#39AAE1;
+    background-color: white;
+}
+
+.ban1, .ban2, .ban3 {
+    color: white;
+    flex: 1;
+    padding: 20px;
+}
+
+.ban1 {
+    background-color: #39AAE1;
+}
+
+.ban2 {
+    background-color: #0079C7;
+}
+
+.ban3 {
+    background-color: #2B4C99;
+}
+
+.titulo {
+    font-size: 21px;
+}
+
+.desc {
+    font-size: 15px;
+    margin: 20px 0px 15px 0px;
+    font-weight: normal;
+}
+
+.opcoes a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.horario {
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDD;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    flex: 2;
+}
+
+.lateral {
+    flex: 1;
+}
+
+.titulowidget, .titulonews {
+    margin: 10px 0px 10px 0px;
+}
+
+.titulowidget h3, .titulonews h3 {
+    font-size: 21px;
+    color: black;
+}
+
+.barra {
+    width: 50px;
+    height: 2px;
+    background-color: #36A9E1;
+}
+
+.corpowidget, .corpowidget1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.corpowidget1 {
+    gap: 30px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #39AAE1;
+    margin: 15px 0px 15px 0px;
+}
+
+.corpowidget h5 {
+    color: #777;
+}
+
+.fundo {
+    display: inline-block;
+    padding-right: 5px;
+}
+.tel, .form {
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    display: flex;
+    width: 330px;
+}
+
+.email {
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+
+.corpowidget p, .corpowidget a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#numero {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.corponoticias {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.retangulos {
+    display: flex;
+}
+
+.newsdata {
+    color: white;
+    background-color: #2B4C99;
+    font-size: 12px;
+    padding: 10px;
+    margin: 15px 2px 15px 0px;
+}
+
+.comentarios {
+    color: white;
+    background-color: #39AAE1;
+    font-size: 12px;
+    padding: 10px;
+    margin: 15px 0px 15px 0px;
+}
+
+.thumbn {
+    margin: 15px 0px 15px 0px;
+}
+
+.thumbn img {
+    width: 100%;
+    height: auto;
+}
+
+.titulonews {
+    font-size: 17px;
+}
+
+article {
+    max-width: 300px;
+}
+
+article .desc {
+    font-size: 12px;
+    color: #777;
+    margin: 15px 0px 15px 0px;
+    line-height: 15px;
+    width: 100%;
+}
+
+article h3 {
+width: 100%;
+}
+
+.corponoticias a {
+    text-decoration: none;
+}
+
+.corponoticias a:visited {
+    color: black;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+footer .titulo {
+    color: white;
+    font-size: 21px;
+    padding: 15px 0px 15px 0px;
+}
+
+.banners, .rodape {
+    display: flex;
+}
+
+.tweets, .posts, .clinica {
+    flex: 1;
+}
+
+.corporodape {
+    margin: 15px 10px 15px 0px;
+}
+.copyrights p {
+    color: #999;
+}
+
+.copyrights strong {
+    color: white;
+    font-weight: normal;
+}
+
+.copyrights {
+    border-top: 1px solid #777;
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.banners a:visited {
+    color: white;
+}
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.icones {
+    display: flex;
+    gap: 5px;
+}
+
+.fundoemail, .facebook, .twitter {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 3px 5px 3px;
+    border-radius: 50%;
+}
+
+.fundoemail a {
+    color:black;
+}
+
+.fundoemail {
+    background-color: white;
+}
+
+.fa:hover, .fundoemail:hover {
+    opacity: 80%;
+}
+
+.contatos p {
+    color: #999;
+}
+
+.contatos strong{
+    color: white;
+    font-weight: normal;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+}
+
+.contato {
+    margin: 2px 0px 2px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+footer .desc {
+    font-size: 14px;
+    color: #999;
+    margin-right: 20px;
+}
+
+.datapost {
+    color:#39AAE1;
+    font-size: 11px;
+    margin: 10px 0px 20px 5px;
+}
+
+.post {
+    color: white;
+    font-size: 14px;
+}
+
+.tweet {
+    font-size: 14px;
+    color: #999;
+}
+
+.tweet strong {
+    color: white;
+}
+
+.datatweet {
+    color:#39AAE1;
+    font-size: 11px;
+    margin: 10px 0px 20px 5px;
+}
+
+.menumobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px;
+    border: 1px solid #39AAE1;
+    padding: 5px;
+}
+
+.linha {
+    height: 3px;
+    background-color:#39AAE1;
+}
+
+@media (max-width: 980px) {
+
+    .corponoticias {
+        gap: 36px;
+    }
+
+    article {
+        width: 280px;
+    }
+    .rodape {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 925px) {
+
+    article {
+        width: 300px;
+    }
+    h1 {
+        font-size: 45px;
+        padding: 10px;
+    }
+    .textos h3 {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .opcoes {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ban1, .ban2, .ban3 {
+        align-items: center;
+        padding: 10px;
+    }
+
+     .titulo h3{
+        font-size: 18px;
+    }
+
+     .desc p, .desc a, .opcoes a, .opcoes p {
+        font-size: 12px;
+    }
+
+     .horario {
+        padding: 10px;
+    }
+
+     .desc {
+        margin: 10px 0px 10px 0px;
+    }
+
+     .container {
+        flex-direction: column;
+    }
+
+     .logo, .corponoticias, .menu {
+        justify-content: center;
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+
+    .titulowidget h3, .titulonews h3 {
+        font-size: 18px;
+    }
+
+    .tel, .form, .email, aside .desc {
+        font-size: 12px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .square {
+        width: 100px;
+        height: 100px;
+    }
+
+    .corpowidget1, .corpowidget {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .corpowidget .desc {
+        max-width: 300px;
+        margin-left: 10px;
+    }
+
+    .post, .tweet, .contato {
+        font-size: 11px;
+    }
+
+    .datapost, .datatweet, .copyrights{
+        font-size: 8px;
+    }
+
+    .widgets, .noticias {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media (max-width: 650px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
+    }
+    nav li {
+        border-top: 1px solid #777;
+        width: 100%;
+        border-width: 100%;
+    }
+    header {
+        height: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    .menumobile {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .banners, .rodape{
+        flex-direction: column;
+    }
+
+    .clinica, .posts, .tweets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ban1, .ban2, footer .ban3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icones {
+        justify-content: center;
+    }
+
+    .corpowidget1 {
+        gap: 5px;
+    }
+}
+
